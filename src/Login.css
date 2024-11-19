@@ -1,0 +1,97 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Use a clean Google font */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Beautiful gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .login-container {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .brand-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* Modern glassmorphism effect */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #fff; /* White background */
+    color: #007bff; /* Blue text */
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .submit-button:disabled {
+    background: #e0e0e0; /* Light gray for disabled button */
+    color: #a0a0a0; /* Gray text for disabled button */
+    cursor: not-allowed; /* Change cursor to indicate it's disabled */
+  }
+  
+  .submit-button:hover:enabled {
+    background: #f4f4f4; /* Light gray for hover (only when enabled) */
+    transform: scale(1.05);
+  }
+  
+  .submit-button:active:enabled {
+    background: #e0e0e0; /* Slightly darker gray for active state (only when enabled) */
+  }
+  
