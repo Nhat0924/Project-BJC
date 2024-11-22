@@ -1,0 +1,105 @@
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  a {
+    color: #007bff; 
+    padding-left: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color:#333
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: #333;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+  /* Overview Section */
+  #overview h2 {
+    margin-top: 0;
+  }
+  
+  /* Video Section */
+  #video p {
+    margin: 1rem 0;
+  }
+  
+  /* Lecture Sections */
+  #lecture h2 {
+    margin-top: 0;
+  }
+  
+  #lecture ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  #lecture ul ul {
+    list-style-type: circle;
+  }
+  
+  /* Activities Section */
+  #activities h3 {
+    margin-top: 0;
+  }
+  
+  #activities ol {
+    padding-left: 1.5rem;
+  }
+  
+  #activities ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  /* Image Styling */
+  img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Reflection Section */
+  #reflection h2 {
+    margin-top: 0;
+  }
+  
+  #reflection ol {
+    padding-left: 1.5rem;
+  }
