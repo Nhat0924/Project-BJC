@@ -30,7 +30,6 @@ body {
   /* Hero Section */
   #hero {
     background: #333;
-    color: #fff;
     padding: 2rem 0;
     text-align: center;
   }
@@ -38,6 +37,7 @@ body {
   #hero h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #fff;
   }
   
   /* Overview Section */
@@ -67,6 +67,7 @@ body {
     padding: 2rem;
     background: #fff;
     margin: 1rem 0;
+    color:#333
   }
   
   #lecture h2 {
@@ -87,6 +88,7 @@ body {
     padding: 2rem;
     background: #fff;
     margin: 1rem 0;
+    color:#333
   }
   
   #activities h3 {

@@ -38,6 +38,7 @@ function App() {
                 </div>
             </section>
 
+            <br></br>
             {/* Section 0 */}
             <section id="lecture">
                 <h2>0. What is Data Structure</h2>
@@ -83,7 +84,7 @@ function App() {
                 <li>List the data structures that are both Linear and Dynamic.</li>
                 </ol>
             </section>
-
+            
             <br></br>
             {/* Section 1 */}
             <section id="lecture">
