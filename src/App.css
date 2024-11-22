@@ -1,6 +1,8 @@
+/* App.css */
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -13,6 +15,16 @@ body {
   
   p {
     color: #555;
+    margin: 1rem 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
   
   /* Hero Section */
@@ -37,10 +49,6 @@ body {
   
   #overview h2 {
     margin-top: 0;
-  }
-  
-  #overview p {
-    margin: 1rem 0;
   }
   
   /* Video Section */
@@ -102,12 +110,17 @@ body {
     height: auto;
   }
   
-  /* Links */
-  a {
-    color: #007bff;
-    text-decoration: none;
+  /* Reflection Section */
+  #reflection {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem 0;
   }
   
-  a:hover {
-    text-decoration: underline;
+  #reflection h2 {
+    margin-top: 0;
+  }
+  
+  #reflection ol {
+    padding-left: 1.5rem;
   }
