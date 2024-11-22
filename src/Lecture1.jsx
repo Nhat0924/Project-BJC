@@ -1,12 +1,15 @@
-import { useState } from 'react'
 import './Lecture1.css'
+import { useNavigate } from "react-router-dom";
 
 function Lecture1() {
-  const [count, setCount] = useState(0)
+  const navigate = useNavigate();
 
+  function handleReturn() {
+    navigate("/dashboard");
+  }
   return (
     <div>
-        <a href="#top">Return to main page </a>
+        <a onClick={handleReturn}>Return to main page </a>
             {/* Hero Section */}
             <section id = "hero">
                 <header>
@@ -32,7 +35,7 @@ function Lecture1() {
                     <p>
                         Before we start, let's watch this video for a brief overview of data structures
                     </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?si=ocs_PUAzUYliZKmn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Video1" width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?si=ocs_PUAzUYliZKmn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br></br>
                 </div>
             </section>
@@ -42,7 +45,7 @@ function Lecture1() {
             <section id="lecture">
                 <h2>0. What is Data Structure</h2>
                 {/* Image 1 */}
-                <img src="src/img/Picture1.jpg" style={{ width: '500%', maxWidth: '600px' }} />
+                <img src={require("./img/Picture1.jpg")} style={{ width: '500%', maxWidth: '600px' }} />
                 <div>
                     <p>
                         A <b>data structure</b> is a storage method that is used to <b>store and organize data</b>.
@@ -97,7 +100,7 @@ function Lecture1() {
                         <li>Each book can be stacked from left to right, in any specified order.</li>
                     </ul>
                     {/* Image 2 */}
-                    <img src="src/img/Picture2.jpg" style={{ width: '500%', maxWidth: '600px' }} />
+                    <img src={require("./img/Picture2.jpg")} style={{ width: '500%', maxWidth: '600px' }} />
                     <p>
                         Array Terminology
                     </p>
@@ -155,7 +158,7 @@ function Lecture1() {
                     </ul>
                 </div>
                 {/* Image 3 */}
-                <img src="src/img/Picture3.jpg" style={{ width: '500%', maxWidth: '600px' }} />
+                <img src={require("./img/Picture3.jpg")} style={{ width: '500%', maxWidth: '600px' }} />
             </section>
 
             {/* Activity 2&3 */}
@@ -237,7 +240,7 @@ function Lecture1() {
                     </ul>
                 </div>
                 {/* Image 4 */}
-                <img src="src/img/Picture4.jpg" style={{ width: '500%', maxWidth: '600px' }} />
+                <img src={require("./img/Picture4.jpg")} style={{ width: '500%', maxWidth: '600px' }} />
             </section>
 
             {/* Activity 4 */}
@@ -246,7 +249,7 @@ function Lecture1() {
                 <p>
                     Watch the video and answer the following questions:
                 </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Etpc_-br5rI?si=NHa5KVd63KU3NySl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Video2" width="560" height="315" src="https://www.youtube.com/embed/Etpc_-br5rI?si=NHa5KVd63KU3NySl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <ol>
                 <li>In a tree structure, what is the difference between a parent node, a child node, and a sibling node?</li>
                 <li>How do you determine which nodes in a tree are leaf nodes</li>
@@ -278,7 +281,7 @@ function Lecture1() {
                     </ul>
                 </div>
                 {/* Image 5 */}
-                <img src="src/img/Picture5.jpg" style={{ width: '500%', maxWidth: '600px' }} />
+                <img src={require("./img/Picture5.jpg")} style={{ width: '500%', maxWidth: '600px' }} />
     
             </section>
             
