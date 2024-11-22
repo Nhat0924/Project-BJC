@@ -141,6 +141,7 @@ function App() {
                     </ul>
                 </div>
             </section>
+            <br></br>
 
             {/* Section 3 */}
             <section id="lecture">
@@ -219,6 +220,7 @@ function App() {
                 </p>
 
             </div>
+            </section>
 
             <br></br>
             {/* Section 4 */}
@@ -253,6 +255,7 @@ function App() {
                 <li>How is the level of a node determined in a tree, and how does the depth of the tree relate to the number of levels?</li>
                 </ol>
             </section>
+            <br></br>
 
             {/* Section 5 */}
             <section id="lecture">
@@ -278,9 +281,9 @@ function App() {
                 </div>
                 {/* Image 5 */}
                 <img src="src/img/Picture5.jpg" style={{ width: '500%', maxWidth: '600px' }} />
-
+    
             </section>
-
+            
             {/* Activity 5 */}
             <section id="activities">
                 <h3>Activities</h3>
@@ -302,6 +305,7 @@ function App() {
                 </ol>
                 </p>
             </section>
+            <br></br>
 
             {/* Reflection */}
             <section id="activities">
@@ -315,7 +319,6 @@ function App() {
             </section>
 
 
-        </section>
     </div>
   )
 }
