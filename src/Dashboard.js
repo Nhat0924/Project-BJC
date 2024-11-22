@@ -9,6 +9,10 @@ function Dashboard() {
       navigate("/"); // Redirect to login page
     };
 
+    const navigateToLecture1 = () => {
+      navigate("/lecture1"); // Redirect to Lecture1 page
+    };
+
 
   return (
     <div className="dashboard-container">
@@ -35,8 +39,8 @@ function Dashboard() {
         <section className="courses">
           <h1>Courses</h1>          
           <div className="course-list">
+          <div className="course-card" onClick={navigateToLecture1}>Lecture 1</div>
             <div className="course-card">Brady Lesson Here</div>
-            <div className="course-card">Nhat Lesson Here</div>
             <div className="course-card">Blake Lesson Here</div>
             <div className="course-card">Projects</div>
             <div className="course-card">Tags & Elements</div>
