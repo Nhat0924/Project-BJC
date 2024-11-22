@@ -282,7 +282,32 @@ function App() {
             <section id="activities">
                 <h3>Activities</h3>
                 <p>
-                    
+                In this activity, we will be exploring the graphs and how it connects between things. <br></br>
+                Prepare a large sheet of paper and a pen or pencil, start by drawing about 5-6 circles on the large sheet of paper, each one representing a different “city.” 
+                <br></br><br></br>
+                Pick a random city as your starting point. Can you draw a path from this city to all other cities with the least number of <b>undirected edges</b>? How about <b> directed edges</b>?<br></br>
+                Once you’re done, answer the following questions:
+                <ol>
+                    <li>How many edges do they take to reach all other cities from your initial city?</li>
+                    <li>Does your graph have any cycle? Why?</li>
+                </ol>
+                Now, adding more edges to your cities so that for each city, it can reach all other cities at 1 single edge. Do the same for your directed graph.<br></br>
+                Once you’re done, answer the following questions:
+                <ol>
+                    <li>How many edges do you have more than the initial graph?</li>
+                    <li>What is the simplest data structure in your opinion? What is the most complicated one?</li>
+                </ol>
+                </p>
+            </section>
+
+            {/* Reflection */}
+            <section id="activities">
+                <h2>Reflection</h2>
+                <p>
+                <ol>
+                    <li>How many edges do you have more than the initial graph?</li>
+                    <li>What is the simplest data structure in your opinion? What is the most complicated one?</li>
+                </ol>
                 </p>
             </section>
 
