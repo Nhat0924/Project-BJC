@@ -140,7 +140,6 @@ function App() {
                     </ul>
                 </div>
             </section>
-            <br></br>
 
             {/* Section 3 */}
             <section id="lecture">
