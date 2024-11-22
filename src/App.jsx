@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-        <a href="#top">Return to main page</a>
+        <a href="#top">Return to main page </a>
             {/* Hero Section */}
             <section id = "hero">
                 <header>

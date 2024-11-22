@@ -19,13 +19,18 @@ body {
   }
   
   a {
-    color: #007bff;
-    text-decoration: none;
+    color: #007bff; 
+    padding-left: 10px;
+  }
+  
+  a:before {
+    content: '← ';
   }
   
   a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover */
   }
+  
   
   /* Hero Section */
   #hero {
