@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div>
+        <a href="#top">Return to main page</a>
             {/* Hero Section */}
             <section id = "hero">
                 <header>
@@ -31,6 +32,7 @@ function App() {
                     <p>
                         Before we start, let's watch this video for a brief overview of data structures
                     </p>
+                    <br></br>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?si=ocs_PUAzUYliZKmn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br></br>
                 </div>
@@ -39,6 +41,8 @@ function App() {
             {/* Section 0 */}
             <section id="lecture">
                 <h2>0. What is Data Structure</h2>
+                {/* Image 1 */}
+                <img src="src/img/Picture1.jpg" style={{ width: '500%', maxWidth: '600px' }} />
                 <div>
                     <p>
                         A <b>data structure</b> is a storage method that is used to <b>store and organize data</b>.
@@ -67,8 +71,6 @@ function App() {
                             <li>Example: Queue, Stack</li>
                         </ul>
                     </ul>
-                    {/* Image 1 */}
-                    <img src="path/to/your/image.jpg" style={{ width: '300%', maxWidth: '400px' }} />
                 </div>
             </section>
 
@@ -94,8 +96,8 @@ function App() {
                         <li>A similar real-world representation of an array is stacking book on a bookshelf.</li>
                         <li>Each book can be stacked from left to right, in any specified order.</li>
                     </ul>
-                    {/* Image 1 */}
-                    <img src="path/to/your/image.jpg" style={{ width: '300%', maxWidth: '400px' }} />
+                    {/* Image 2 */}
+                    <img src="src/img/Picture2.jpg" style={{ width: '500%', maxWidth: '600px' }} />
                     <p>
                         Array Terminology
                     </p>
@@ -152,8 +154,8 @@ function App() {
                         <li>That same person will also be the first to make a purchase and leave the line, hence <b>“First Out”</b>.</li>
                     </ul>
                 </div>
-                {/* Image 1 */}
-                <img src="path/to/your/image.jpg" style={{ width: '300%', maxWidth: '400px' }} />
+                {/* Image 3 */}
+                <img src="src/img/Picture3.jpg" style={{ width: '500%', maxWidth: '600px' }} />
             </section>
 
             {/* Activity 2&3 */}
@@ -233,8 +235,8 @@ function App() {
                         <li>Each node will have an associated <b>level</b> to it to indicate how far it is from the root node, and the root node itself will have a level of 0, indicating that it is the ancestor of all other nodes.</li>
                     </ul>
                 </div>
-                {/* Image 1 */}
-                <img src="path/to/your/image.jpg" style={{ width: '300%', maxWidth: '400px' }} />
+                {/* Image 4 */}
+                <img src="src/img/Picture4.jpg" style={{ width: '500%', maxWidth: '600px' }} />
             </section>
 
             {/* Activity 4 */}
@@ -273,8 +275,8 @@ function App() {
                         </ul>
                     </ul>
                 </div>
-                {/* Image 1 */}
-                <img src="path/to/your/image.jpg" style={{ width: '300%', maxWidth: '400px' }} />
+                {/* Image 5 */}
+                <img src="src/img/Picture5.jpg" style={{ width: '500%', maxWidth: '600px' }} />
 
             </section>
 
