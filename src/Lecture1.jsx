@@ -1,4 +1,4 @@
-import './Lecture1.css'
+import './Lectures.css'
 import { useNavigate } from "react-router-dom";
 
 function Lecture1() {
@@ -7,9 +7,12 @@ function Lecture1() {
   function handleReturn() {
     navigate("/dashboard");
   }
+  function handleNext() {
+    navigate("/lecture2");
+  }
   return (
     <div>
-        <a onClick={handleReturn}>Return to main page </a>
+        <button onClick={handleReturn}>Return to main page </button>
             {/* Hero Section */}
             <section id = "hero">
                 <header>
@@ -318,8 +321,13 @@ function Lecture1() {
                 </ol>
                 </p>
             </section>
-
-
+            
+            <br></br>
+                {/* Navigation */}
+            <section id="navigation">
+                <button onClick={handleReturn}>Return to main page </button>
+                <button onClick={handleNext}>Next Lecture </button>
+            </section>
     </div>
   )
 }

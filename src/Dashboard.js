@@ -13,6 +13,11 @@ function Dashboard() {
       navigate("/lecture1"); // Redirect to Lecture1 page
     };
 
+    const navigateToLecture2 = () => {
+      navigate("/lecture2"); // Redirect to Lecture2 page
+    }
+  
+
 
   return (
     <div className="dashboard-container">
@@ -40,7 +45,7 @@ function Dashboard() {
           <h1>Courses</h1>          
           <div className="course-list">
           <div className="course-card" onClick={navigateToLecture1}>Lecture 1</div>
-            <div className="course-card">Brady Lesson Here</div>
+            <div className="course-card" onClick={navigateToLecture2}>Lecture 2</div>
             <div className="course-card">Blake Lesson Here</div>
             <div className="course-card">Projects</div>
             <div className="course-card">Tags & Elements</div>
