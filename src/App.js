@@ -4,6 +4,7 @@ import Login from "./Login";
 import Dashboard from "./Dashboard";
 import Lecture1 from './Lecture1'; // Import your Lecture1 component
 import Lecture2 from './Lecture2'; // Import your Lecture2 component
+import Lecture3 from './Lecture3'; // Import your Lecture3 component
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/lecture1" element={<Lecture1 />} /> {/* Add a route for Lecture1 */}
         <Route path="/lecture2" element={<Lecture2 />} /> {/* Add a route for Lecture2 */}
+        <Route path="/lecture3" element={<Lecture3 />} /> {/* Add a route for Lecture3 */}
       </Routes>
     </Router>
   );

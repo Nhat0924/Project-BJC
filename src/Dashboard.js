@@ -16,6 +16,10 @@ function Dashboard() {
     const navigateToLecture2 = () => {
       navigate("/lecture2"); // Redirect to Lecture2 page
     }
+
+    const navigateToLecture3 = () => {
+      navigate("/lecture3"); // Redirect to Lecture3 page
+    }
   
 
 
@@ -46,7 +50,7 @@ function Dashboard() {
           <div className="course-list">
           <div className="course-card" onClick={navigateToLecture1}>Lecture 1</div>
             <div className="course-card" onClick={navigateToLecture2}>Lecture 2</div>
-            <div className="course-card">Blake Lesson Here</div>
+            <div className="course-card" onClick={navigateToLecture3}>Lecture 3</div>
             <div className="course-card">Projects</div>
             <div className="course-card">Tags & Elements</div>
             <div className="course-card">Styling with CSS</div>
