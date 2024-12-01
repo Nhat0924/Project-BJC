@@ -15,6 +15,7 @@ function Login() {
   return (
     <div className="login-container">
       <h1 className="brand-title">Beauty and Joy of Computing</h1>
+      <img src={require("./img/bjc.png")} alt="BJC Logo" />
       <div className="login-box">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>

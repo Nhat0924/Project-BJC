@@ -68,7 +68,7 @@ function Lecture2() {
           <p>
             Let's watch this video to understand binary numbers better:
           </p>
-          <iframe title="BinaryDigitsVideo" width="560" height="315" src="https://www.youtube.com/embed/TDL4c8fMODk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="BinaryDigitsVideo" width="560" height="315" src="https://www.youtube.com/embed/zDNaUi2cjv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 

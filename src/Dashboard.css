@@ -95,19 +95,19 @@
   
   .course-card {
     width: 800px; /* Reduce the width for narrower cards */    
-    height: 70px; /* Increase the height for taller cards */
-    background-color: #f9f9f9;
+    height: 200px; /* Increase the height for taller cards */
+    background-color: #1f6cc4;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
-    color: #333;
+    color: #ffffff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     display: flex; /* Center content within the card */
     justify-content: center;
     align-items: center;
-    font-size: 18px; /* Adjust font size for visibility */
+    font-size: 30px; /* Adjust font size for visibility */
   }
   
   .course-card:hover {

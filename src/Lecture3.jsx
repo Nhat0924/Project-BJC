@@ -8,10 +8,6 @@ function Lecture3() {
     navigate("/dashboard");
   }
 
-  function handleNext() {
-    navigate("/lecture4");
-  }
-
   function handlePrev() {
     navigate("/lecture2");
   }
@@ -92,7 +88,6 @@ function Lecture3() {
       <section id="navigation">
         <button onClick={handlePrev}>Previous Lecture </button>
         <button onClick={handleReturn}>Return to main page </button>
-        <button onClick={handleNext}>Next Lecture </button>
       </section>
     </div>
   )

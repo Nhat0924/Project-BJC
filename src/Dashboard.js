@@ -26,15 +26,10 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <aside className="sidebar">
-        <h1>BJC</h1>
+      <img src={require("./img/bjc.png")} style={{ width: '200%', maxWidth: '140px' }} />
         <nav>
           <ul>
-            <li>Dashboard</li>
-            <li>Assignments</li>
-            <li>Lessons</li>
-            <li>Progress</li>
-            <li>Track</li>
-            <li>Account</li>
+            
           </ul>
         </nav>
         <button className="signout-button" onClick={handleSignOut}>
@@ -43,7 +38,6 @@ function Dashboard() {
       </aside>
       <main className="main-content">
         <header className="topbar">
-          <input type="text" placeholder="Search for Lesson..." className="search-bar" />
         </header>
         <section className="courses">
           <h1>Courses</h1>          
@@ -51,9 +45,6 @@ function Dashboard() {
           <div className="course-card" onClick={navigateToLecture1}>Lecture 1</div>
             <div className="course-card" onClick={navigateToLecture2}>Lecture 2</div>
             <div className="course-card" onClick={navigateToLecture3}>Lecture 3</div>
-            <div className="course-card">Projects</div>
-            <div className="course-card">Tags & Elements</div>
-            <div className="course-card">Styling with CSS</div>
           </div>
         </section>
       </main>
